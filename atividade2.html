@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulario de contrato</title>
+</head>
+  <h1>Formulário de contato</h1>
+  <p> Por favor, preencha o formulário abaixo e clique no botão Enviar Mensagem. Agradecemos por seu contato.</p>
+  <fieldset>
+      <legend> Dados Básicos </legend>
+      <label>nome</label>
+      <input type="text" value=" " name="nome" id="nome"/><br>
+
+      <label for="email"> E-mail </label>
+      <input type="email" name="email" id="email" required 
+      placeholder="seunome@dominio.com.br">
+  </fieldset>
+<fieldset>
+    <legend> Seu curso no Instituto de Computação </legend>
+    <input type="radio" name="curso" value="cc">
+    Ciência da Computação<br>
+    <input type="radio" name="curso" value="si">
+    Sistemas da informação<br>
+    <input type="radio" name="curso" value="ec">
+    Engenharia da Computação<br>
+</fieldset>
+<fieldset>
+    <legend> Assinale as linguagens já usadas por você: </legend>
+    <label for="Java">Java</label>
+    <input type="checkbox" name="ling" id="Java" value="Java">
+    <label for="C">C</label>
+    <input type="checkbox" name="ling" id="C" value="C">
+    <label for="Cpp">C++</label>
+    <input type="checkbox" name="ling" id="cpp" value="cpp">
+    <label for="Perl"> perl</label>
+    <input type="checkbox" name="ling" id="perl" value="perl">
+    <label for="Python"> python </label>
+    <input type="checkbox" name="ling" id="python" value="python">
+    <label for="Js">javascript</label>
+    <input type="checkbox" name="ling" id="js" value="js">
+
+</fieldset>
+<fieldset>
+    <legend> Dados complementares </legend>
+    <label for="nascimento"> Data de nascimento</label>
+    <input type="date" name="nascimento" id="nascimento"><br>
+    <label for="ano" >Ano de Entrada em seu curso do IComp</label>
+    <input type="number" name="ano" min="1980" max="2016"
+    step="1" value="2000" id="ano" >
+
+</fieldset>
+
+<fieldset>
+    <legend> Área de atuação </legend>
+    <select name="area" id="area">
+        <option value="1" > Banco de dados</option>
+        <option value="2" > Educação a distância</option>
+        <option value="3" > Engenharia da software</option>
+        <option value="4" > Otimização</option>
+        <option value="5" > Programação para a web</option>
+        <option value="6" > Recuperação da informação</option>
+        <option value="7" > Redes de computadores</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend> Submeta seu curriculo vitae </legend>
+    <input type="file"  name="curriculo">
+</fieldset>
+
+<fieldset>
+    <legend> Digite sua Mensagem </legend>
+    <textarea name="mensagem" rows="4" cols="50"> Este é o valor padrão! </textarea>
+</fieldset>
+<form id="contact" method="GET" action="processa.php">
+   
+    <input type="reset" value="Resetar dados"/>
+    <input type="submit" name="submit" value="Enviar Mensagem"/>
+</form>
+    
+</html>
+		
