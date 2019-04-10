@@ -5,7 +5,10 @@ p{
 
 body{
 	background-image:url(r10.jpg);
+	background-repeat: no-repeat;
+	background-size: 1500px;
 }
+
 
 div{
 border: 15px solid white;
