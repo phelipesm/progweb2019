@@ -1,0 +1,21 @@
+p{
+	font-size: 25px;
+	color: black;
+}
+
+body{
+	background-image:url(r10.jpg);
+	background-repeat: no-repeat;
+	background-size: 1500px;
+}
+
+
+div{
+border: 15px solid white;
+border-radius: 20px 20px 20px 20px;
+background-color: rgba(192,192,192,0.6);
+margin: 120px;
+width: 400px;
+padding: 20px;
+box-shadow: 5px 5px 5px 5px black;
+}
