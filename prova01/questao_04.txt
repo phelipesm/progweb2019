@@ -1,0 +1,5 @@
+Closure em JavaScript de modo rude, ela lembra do escopo em que foi criada.No caso do exemplo dado, a variável moo, recebe função de foo, e usa o escopo dela, pegamos de exemplo o moo(1), quando foi chamado, o debug dele foi de 
+foo(x)= x=2 de var moo= foo(2)
+function() = y=1 de moo(1)
+logo a soma de console.log(2+1+4)=7
+Ele salva o resultado dentro desse escopo, e quando for chamado de novo vai incrementando o valor pelor valor inserido em moo()

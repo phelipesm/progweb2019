@@ -1,0 +1,6 @@
+1-Comentário em HTMl são feitos usando <-------comentário------> e não usando /* (linha 04)
+2-<strong> Ele inicia mas nao termina.(linha 18)
+3-A estrutura do corpo da pagina,<body> não se encontra no código.
+4-Ele tenta mudar o estilo do background duas vezes, nas linhas 10 e 11; nas linhas 26 e 27,entretanto na linha 10 e 11, ele muda o estilo chamando pelo ID da qual não tinha sido declarado antes dessa linha
+
+

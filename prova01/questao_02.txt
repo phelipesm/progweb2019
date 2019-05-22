@@ -1,0 +1,7 @@
+1-#span teste{
+}
+2-strong {
+}
+3-O próprio <p> pode ser usado como seletor, pegando do codigo ele poderia ser <p class="cl1" title="css">CSS</p>
+4-#teste{
+}
