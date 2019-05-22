@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="teste4.css">
+	<title></title>
+</head>
+	
+<body>
+
+	<script>
+		addEventListener("mousemove", function(event) {
+ 		while(document.querySelectorAll('div').length > 7)
+        document.body.removeChild(document.querySelectorAll('div')[0]);
+ 		var dot = document.createElement("div");
+	 	dot.className = "dot";
+ 		dot.style.left = (event.pageX - 4) + "px";
+ 		dot.style.top = (event.pageY - 4) + "px";
+ 		document.body.appendChild(dot)});
+
+	</script>
+</body>
+</html>
