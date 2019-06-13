@@ -1,3 +1,6 @@
+David: Seletores incorretos
+Nota: 0.0
+
 1-#span teste{
 }
 2-strong {
